@@ -3,27 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D231AB926D3EBC500A1CD86 /* SegmentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231AB826D3EBC500A1CD86 /* SegmentRegisterViewController.swift */; };
+		2D231ABB26D3EBD700A1CD86 /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231ABA26D3EBD700A1CD86 /* PersonalDataViewController.swift */; };
+		2D231ABD26D3EBEB00A1CD86 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231ABC26D3EBEB00A1CD86 /* RegisterViewController.swift */; };
+		2D231AC026D3EC0800A1CD86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231ABF26D3EC0800A1CD86 /* LoginViewController.swift */; };
+		2D231AC226D3EC2300A1CD86 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231AC126D3EC2300A1CD86 /* ServiceViewController.swift */; };
+		2D231AC426D3EC3C00A1CD86 /* ServiceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231AC326D3EC3C00A1CD86 /* ServiceSelectionViewController.swift */; };
+		2D231AC626D3EC4500A1CD86 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D231AC526D3EC4500A1CD86 /* ChatViewController.swift */; };
 		2D34423726C1EAD4004AF4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34423626C1EAD4004AF4CC /* AppDelegate.swift */; };
 		2D34423926C1EAD4004AF4CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34423826C1EAD4004AF4CC /* SceneDelegate.swift */; };
-		2D34423B26C1EAD4004AF4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34423A26C1EAD4004AF4CC /* ViewController.swift */; };
+		2D34423B26C1EAD4004AF4CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34423A26C1EAD4004AF4CC /* HomeViewController.swift */; };
 		2D34423E26C1EAD4004AF4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D34423C26C1EAD4004AF4CC /* Main.storyboard */; };
-		2D34424026C1EAD6004AF4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34423F26C1EAD6004AF4CC /* Assets.xcassets */; };
 		2D34424326C1EAD6004AF4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D34424126C1EAD6004AF4CC /* LaunchScreen.storyboard */; };
+		2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */; };
+		2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */; };
+		2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1226F79FF700D82A85 /* Assets.xcassets */; };
+		2D3A3C1526F7A09600D82A85 /* AgroAid_Logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */; };
+		2D75CB2226D9666B0073BAD4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D75CB2126D9666B0073BAD4 /* Message.swift */; };
+		2D75CB2826DABF6A0073BAD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D75CB2726DABF6A0073BAD4 /* Constants.swift */; };
+		2D967ACF26F3B57900DABF64 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2D967ACE26F3B57900DABF64 /* IQKeyboardManagerSwift */; };
+		2D967AD226F4D15E00DABF64 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D967AD026F4D15E00DABF64 /* MessageCell.swift */; };
+		2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D967AD126F4D15E00DABF64 /* MessageCell.xib */; };
+		7B94E8F7FB34B954A9394864 /* Pods_AgroAid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19191D04B634D773FD5DCA93 /* Pods-AgroAid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroAid.debug.xcconfig"; path = "Target Support Files/Pods-AgroAid/Pods-AgroAid.debug.xcconfig"; sourceTree = "<group>"; };
+		2D231AB826D3EBC500A1CD86 /* SegmentRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentRegisterViewController.swift; sourceTree = "<group>"; };
+		2D231ABA26D3EBD700A1CD86 /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
+		2D231ABC26D3EBEB00A1CD86 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2D231ABF26D3EC0800A1CD86 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D231AC126D3EC2300A1CD86 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		2D231AC326D3EC3C00A1CD86 /* ServiceSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceSelectionViewController.swift; sourceTree = "<group>"; };
+		2D231AC526D3EC4500A1CD86 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		2D34423326C1EAD4004AF4CC /* AgroAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgroAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D34423626C1EAD4004AF4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D34423826C1EAD4004AF4CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D34423A26C1EAD4004AF4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D34423A26C1EAD4004AF4CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2D34423D26C1EAD4004AF4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2D34423F26C1EAD6004AF4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D34424226C1EAD6004AF4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D34424426C1EAD6004AF4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		2D3A3C1226F79FF700D82A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AgroAid_Logo.gif; sourceTree = "<group>"; };
+		2D75CB2126D9666B0073BAD4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2D75CB2726DABF6A0073BAD4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D967AD026F4D15E00DABF64 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		2D967AD126F4D15E00DABF64 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		B3E351A64CBE39679B2B8478 /* Pods-AgroAid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroAid.release.xcconfig"; path = "Target Support Files/Pods-AgroAid/Pods-AgroAid.release.xcconfig"; sourceTree = "<group>"; };
+		ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgroAid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B94E8F7FB34B954A9394864 /* Pods_AgroAid.framework in Frameworks */,
+				2D967ACF26F3B57900DABF64 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D231ABE26D3EBFB00A1CD86 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2D231AB826D3EBC500A1CD86 /* SegmentRegisterViewController.swift */,
+				2D231ABA26D3EBD700A1CD86 /* PersonalDataViewController.swift */,
+				2D231ABC26D3EBEB00A1CD86 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2D231AC726D3ECF200A1CD86 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				2D231AC526D3EC4500A1CD86 /* ChatViewController.swift */,
+				2D75CB2126D9666B0073BAD4 /* Message.swift */,
+				2D967AD026F4D15E00DABF64 /* MessageCell.swift */,
+				2D967AD126F4D15E00DABF64 /* MessageCell.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		2D231AC826D3EF3C00A1CD86 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2D231ABF26D3EC0800A1CD86 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2D231AC926D3EF4300A1CD86 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2D34423A26C1EAD4004AF4CC /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D231ACA26D3EF4C00A1CD86 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D231AC126D3EC2300A1CD86 /* ServiceViewController.swift */,
+				2D231AC326D3EC3C00A1CD86 /* ServiceSelectionViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D231ACB26D3EFB900A1CD86 /* AppCore */ = {
+			isa = PBXGroup;
+			children = (
+				2D34423626C1EAD4004AF4CC /* AppDelegate.swift */,
+				2D34423826C1EAD4004AF4CC /* SceneDelegate.swift */,
+				2D231ACC26D3EFD400A1CD86 /* SupportingFiles */,
+			);
+			path = AppCore;
+			sourceTree = "<group>";
+		};
+		2D231ACC26D3EFD400A1CD86 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2D3A3C1226F79FF700D82A85 /* Assets.xcassets */,
+				2D34424426C1EAD6004AF4CC /* Info.plist */,
+				2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */,
+				2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2D231ACD26D3F01D00A1CD86 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2D34423C26C1EAD4004AF4CC /* Main.storyboard */,
+				2D34424126C1EAD6004AF4CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		2D34422A26C1EAD4004AF4CC = {
 			isa = PBXGroup;
 			children = (
 				2D34423526C1EAD4004AF4CC /* AgroAid */,
 				2D34423426C1EAD4004AF4CC /* Products */,
+				C211BBFA74DF3AAED130158C /* Pods */,
+				9D6695F8A820C012F66DEF08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +169,34 @@
 		2D34423526C1EAD4004AF4CC /* AgroAid */ = {
 			isa = PBXGroup;
 			children = (
-				2D34423626C1EAD4004AF4CC /* AppDelegate.swift */,
-				2D34423826C1EAD4004AF4CC /* SceneDelegate.swift */,
-				2D34423A26C1EAD4004AF4CC /* ViewController.swift */,
-				2D34423C26C1EAD4004AF4CC /* Main.storyboard */,
-				2D34423F26C1EAD6004AF4CC /* Assets.xcassets */,
-				2D34424126C1EAD6004AF4CC /* LaunchScreen.storyboard */,
-				2D34424426C1EAD6004AF4CC /* Info.plist */,
+				2D231ACB26D3EFB900A1CD86 /* AppCore */,
+				2D231AC926D3EF4300A1CD86 /* Home */,
+				2D231AC826D3EF3C00A1CD86 /* Login */,
+				2D231ABE26D3EBFB00A1CD86 /* Register */,
+				2D231AC726D3ECF200A1CD86 /* Chat */,
+				2D231ACA26D3EF4C00A1CD86 /* Services */,
+				2D231ACD26D3F01D00A1CD86 /* Storyboards */,
+				2D75CB2726DABF6A0073BAD4 /* Constants.swift */,
+				2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */,
 			);
 			path = AgroAid;
+			sourceTree = "<group>";
+		};
+		9D6695F8A820C012F66DEF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C211BBFA74DF3AAED130158C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19191D04B634D773FD5DCA93 /* Pods-AgroAid.debug.xcconfig */,
+				B3E351A64CBE39679B2B8478 /* Pods-AgroAid.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +206,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D34424726C1EAD6004AF4CC /* Build configuration list for PBXNativeTarget "AgroAid" */;
 			buildPhases = (
+				19EC390CD2C965E683424A55 /* [CP] Check Pods Manifest.lock */,
 				2D34422F26C1EAD4004AF4CC /* Sources */,
 				2D34423026C1EAD4004AF4CC /* Frameworks */,
 				2D34423126C1EAD4004AF4CC /* Resources */,
+				1C33A6F808B1DC56FAB737D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = AgroAid;
+			packageProductDependencies = (
+				2D967ACE26F3B57900DABF64 /* IQKeyboardManagerSwift */,
+			);
 			productName = AgroAid;
 			productReference = 2D34423326C1EAD4004AF4CC /* AgroAid.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 2D34422A26C1EAD4004AF4CC;
+			packageReferences = (
+				2D967ACD26F3B57900DABF64 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 2D34423426C1EAD4004AF4CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,21 +264,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */,
 				2D34424326C1EAD6004AF4CC /* LaunchScreen.storyboard in Resources */,
-				2D34424026C1EAD6004AF4CC /* Assets.xcassets in Resources */,
+				2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */,
 				2D34423E26C1EAD4004AF4CC /* Main.storyboard in Resources */,
+				2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */,
+				2D3A3C1526F7A09600D82A85 /* AgroAid_Logo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EC390CD2C965E683424A55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgroAid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C33A6F808B1DC56FAB737D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroAid/Pods-AgroAid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgroAid/Pods-AgroAid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgroAid/Pods-AgroAid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D34422F26C1EAD4004AF4CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D34423B26C1EAD4004AF4CC /* ViewController.swift in Sources */,
+				2D231AC026D3EC0800A1CD86 /* LoginViewController.swift in Sources */,
+				2D231ABB26D3EBD700A1CD86 /* PersonalDataViewController.swift in Sources */,
+				2D34423B26C1EAD4004AF4CC /* HomeViewController.swift in Sources */,
+				2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */,
+				2D231AB926D3EBC500A1CD86 /* SegmentRegisterViewController.swift in Sources */,
+				2D967AD226F4D15E00DABF64 /* MessageCell.swift in Sources */,
+				2D231ABD26D3EBEB00A1CD86 /* RegisterViewController.swift in Sources */,
+				2D231AC426D3EC3C00A1CD86 /* ServiceSelectionViewController.swift in Sources */,
+				2D75CB2826DABF6A0073BAD4 /* Constants.swift in Sources */,
+				2D75CB2226D9666B0073BAD4 /* Message.swift in Sources */,
 				2D34423726C1EAD4004AF4CC /* AppDelegate.swift in Sources */,
+				2D231AC226D3EC2300A1CD86 /* ServiceViewController.swift in Sources */,
+				2D231AC626D3EC4500A1CD86 /* ChatViewController.swift in Sources */,
 				2D34423926C1EAD4004AF4CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +479,13 @@
 		};
 		2D34424826C1EAD6004AF4CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19191D04B634D773FD5DCA93 /* Pods-AgroAid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69KP7AWB28;
-				INFOPLIST_FILE = AgroAid/Info.plist;
+				INFOPLIST_FILE = AgroAid/AppCore/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +499,13 @@
 		};
 		2D34424926C1EAD6004AF4CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E351A64CBE39679B2B8478 /* Pods-AgroAid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69KP7AWB28;
-				INFOPLIST_FILE = AgroAid/Info.plist;
+				INFOPLIST_FILE = AgroAid/AppCore/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +539,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D967ACD26F3B57900DABF64 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D967ACE26F3B57900DABF64 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D967ACD26F3B57900DABF64 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D34422B26C1EAD4004AF4CC /* Project object */;
 }
