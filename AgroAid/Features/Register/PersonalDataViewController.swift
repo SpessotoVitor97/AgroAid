@@ -14,17 +14,33 @@ class PersonalDataViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var surnameTextField: UITextField!
     @IBOutlet weak var streetTypeTextField: UITextField!
+    
+    @IBOutlet weak var creaNumberLabel: UILabel!
+    @IBOutlet weak var creaNumberTexField: UITextField!
+    
     @IBOutlet weak var addressTextField: UITextField!
     @IBOutlet weak var numberTextField: UITextField!
     @IBOutlet weak var aditionalInfoTextField: UITextField!
     
-    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var nextButton: DSButton!
+    
+    @IBOutlet weak var personalDataView: UIView!
+    @IBOutlet weak var addressView: UIView!
     
     var userType: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        personalDataView.layer.cornerRadius = personalDataView.frame.size.height / 10
+        addressView.layer.cornerRadius = addressView.frame.size.height / 10
+        
+        if userType == "Produtor" {
+            creaNumberLabel.isHidden = true
+            creaNumberTexField.isHidden = true
+        }
+        
+        nextButton.configure(with: .primaryDefault)
         nextButton.isEnabled = true
     }
     

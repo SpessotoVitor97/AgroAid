@@ -9,13 +9,14 @@ import UIKit
 
 class ServiceSelectionViewController: UIViewController {
 
-    @IBOutlet weak var askHelpButton: UIButton!
-    @IBOutlet weak var myOffersButton: UIButton!
+    @IBOutlet weak var askHelpButton: DSButton!
+    @IBOutlet weak var myOffersButton: DSButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        askHelpButton.configure(with: .secondaryDefault)
+        myOffersButton.configure(with: .secondaryDefault)
     }
     
 

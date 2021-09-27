@@ -11,13 +11,18 @@ class SegmentRegisterViewController: UIViewController {
 
     @IBOutlet weak var employeeButton: UIButton!
     @IBOutlet weak var productorButton: UIButton!
-    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var nextButton: DSButton!
     
     var userType: String = "Undefined"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        nextButton.configure(with: .primaryDefault)
+        nextButton.isEnabled = false
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         nextButton.isEnabled = false
     }
     

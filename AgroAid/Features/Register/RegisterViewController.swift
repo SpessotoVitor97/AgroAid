@@ -14,12 +14,14 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     
-    @IBOutlet weak var registerAndEnterButton: UIButton!
+    @IBOutlet weak var registerAndEnterButton: DSButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordTextField.isSecureTextEntry = true
         confirmPasswordTextField.isSecureTextEntry = true
+        
+        registerAndEnterButton.configure(with: .primaryDefault)
     }
 
     @IBAction func registerAndEnterPressed(_ sender: UIButton) {

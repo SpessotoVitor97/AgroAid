@@ -22,12 +22,19 @@
 		2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */; };
 		2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */; };
 		2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1226F79FF700D82A85 /* Assets.xcassets */; };
-		2D3A3C1526F7A09600D82A85 /* AgroAid_Logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */; };
+		2D5D815C2700EE3D000F50AE /* DSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815B2700EE3D000F50AE /* DSButton.swift */; };
+		2D5D81602700EE47000F50AE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815D2700EE47000F50AE /* UIColor+Utils.swift */; };
+		2D5D81612700EE47000F50AE /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815E2700EE47000F50AE /* UIView+Utils.swift */; };
+		2D5D81622700EE47000F50AE /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815F2700EE47000F50AE /* UIImage+Utils.swift */; };
+		2D5D81642700EE4F000F50AE /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D81632700EE4F000F50AE /* StyleGuide.swift */; };
 		2D75CB2226D9666B0073BAD4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D75CB2126D9666B0073BAD4 /* Message.swift */; };
 		2D75CB2826DABF6A0073BAD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D75CB2726DABF6A0073BAD4 /* Constants.swift */; };
 		2D967ACF26F3B57900DABF64 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2D967ACE26F3B57900DABF64 /* IQKeyboardManagerSwift */; };
 		2D967AD226F4D15E00DABF64 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D967AD026F4D15E00DABF64 /* MessageCell.swift */; };
 		2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D967AD126F4D15E00DABF64 /* MessageCell.xib */; };
+		2DADD73427011525001A3E2A /* Logo_animado.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73327011525001A3E2A /* Logo_animado.gif */; };
+		2DADD73727011661001A3E2A /* Logo_animado_XL.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73527011661001A3E2A /* Logo_animado_XL.gif */; };
+		2DADD73827011661001A3E2A /* Logo_animado_large.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73627011661001A3E2A /* Logo_animado_large.gif */; };
 		7B94E8F7FB34B954A9394864 /* Pods_AgroAid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +57,18 @@
 		2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		2D3A3C1226F79FF700D82A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AgroAid_Logo.gif; sourceTree = "<group>"; };
+		2D5D815B2700EE3D000F50AE /* DSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSButton.swift; sourceTree = "<group>"; };
+		2D5D815D2700EE47000F50AE /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		2D5D815E2700EE47000F50AE /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		2D5D815F2700EE47000F50AE /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		2D5D81632700EE4F000F50AE /* StyleGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
 		2D75CB2126D9666B0073BAD4 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		2D75CB2726DABF6A0073BAD4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2D967AD026F4D15E00DABF64 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2D967AD126F4D15E00DABF64 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		2DADD73327011525001A3E2A /* Logo_animado.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado.gif; sourceTree = "<group>"; };
+		2DADD73527011661001A3E2A /* Logo_animado_XL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado_XL.gif; sourceTree = "<group>"; };
+		2DADD73627011661001A3E2A /* Logo_animado_large.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado_large.gif; sourceTree = "<group>"; };
 		B3E351A64CBE39679B2B8478 /* Pods-AgroAid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroAid.release.xcconfig"; path = "Target Support Files/Pods-AgroAid/Pods-AgroAid.release.xcconfig"; sourceTree = "<group>"; };
 		ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgroAid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -134,7 +148,9 @@
 				2D3A3C1226F79FF700D82A85 /* Assets.xcassets */,
 				2D34424426C1EAD6004AF4CC /* Info.plist */,
 				2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */,
-				2D3A3C1426F7A09600D82A85 /* AgroAid_Logo.gif */,
+				2DADD73327011525001A3E2A /* Logo_animado.gif */,
+				2DADD73627011661001A3E2A /* Logo_animado_large.gif */,
+				2DADD73527011661001A3E2A /* Logo_animado_XL.gif */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -170,16 +186,53 @@
 			isa = PBXGroup;
 			children = (
 				2D231ACB26D3EFB900A1CD86 /* AppCore */,
+				2D5D81652700F25E000F50AE /* Features */,
+				2D5D81582700EDD3000F50AE /* Shared */,
+			);
+			path = AgroAid;
+			sourceTree = "<group>";
+		};
+		2D5D81582700EDD3000F50AE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2D75CB2726DABF6A0073BAD4 /* Constants.swift */,
+				2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */,
+				2D5D81632700EE4F000F50AE /* StyleGuide.swift */,
+				2D5D81592700EDDB000F50AE /* Button */,
+				2D5D815A2700EE16000F50AE /* Utils */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2D5D81592700EDDB000F50AE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2D5D815B2700EE3D000F50AE /* DSButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		2D5D815A2700EE16000F50AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2D5D815D2700EE47000F50AE /* UIColor+Utils.swift */,
+				2D5D815F2700EE47000F50AE /* UIImage+Utils.swift */,
+				2D5D815E2700EE47000F50AE /* UIView+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2D5D81652700F25E000F50AE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2D231ACD26D3F01D00A1CD86 /* Storyboards */,
 				2D231AC926D3EF4300A1CD86 /* Home */,
 				2D231AC826D3EF3C00A1CD86 /* Login */,
 				2D231ABE26D3EBFB00A1CD86 /* Register */,
 				2D231AC726D3ECF200A1CD86 /* Chat */,
 				2D231ACA26D3EF4C00A1CD86 /* Services */,
-				2D231ACD26D3F01D00A1CD86 /* Storyboards */,
-				2D75CB2726DABF6A0073BAD4 /* Constants.swift */,
-				2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */,
 			);
-			path = AgroAid;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		9D6695F8A820C012F66DEF08 /* Frameworks */ = {
@@ -265,11 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */,
+				2DADD73427011525001A3E2A /* Logo_animado.gif in Resources */,
 				2D34424326C1EAD6004AF4CC /* LaunchScreen.storyboard in Resources */,
 				2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */,
+				2DADD73727011661001A3E2A /* Logo_animado_XL.gif in Resources */,
+				2DADD73827011661001A3E2A /* Logo_animado_large.gif in Resources */,
 				2D34423E26C1EAD4004AF4CC /* Main.storyboard in Resources */,
 				2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */,
-				2D3A3C1526F7A09600D82A85 /* AgroAid_Logo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,16 +378,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D231AC026D3EC0800A1CD86 /* LoginViewController.swift in Sources */,
+				2D5D815C2700EE3D000F50AE /* DSButton.swift in Sources */,
 				2D231ABB26D3EBD700A1CD86 /* PersonalDataViewController.swift in Sources */,
 				2D34423B26C1EAD4004AF4CC /* HomeViewController.swift in Sources */,
 				2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */,
 				2D231AB926D3EBC500A1CD86 /* SegmentRegisterViewController.swift in Sources */,
 				2D967AD226F4D15E00DABF64 /* MessageCell.swift in Sources */,
+				2D5D81642700EE4F000F50AE /* StyleGuide.swift in Sources */,
+				2D5D81602700EE47000F50AE /* UIColor+Utils.swift in Sources */,
 				2D231ABD26D3EBEB00A1CD86 /* RegisterViewController.swift in Sources */,
 				2D231AC426D3EC3C00A1CD86 /* ServiceSelectionViewController.swift in Sources */,
 				2D75CB2826DABF6A0073BAD4 /* Constants.swift in Sources */,
+				2D5D81622700EE47000F50AE /* UIImage+Utils.swift in Sources */,
 				2D75CB2226D9666B0073BAD4 /* Message.swift in Sources */,
 				2D34423726C1EAD4004AF4CC /* AppDelegate.swift in Sources */,
+				2D5D81612700EE47000F50AE /* UIView+Utils.swift in Sources */,
 				2D231AC226D3EC2300A1CD86 /* ServiceViewController.swift in Sources */,
 				2D231AC626D3EC4500A1CD86 /* ChatViewController.swift in Sources */,
 				2D34423926C1EAD4004AF4CC /* SceneDelegate.swift in Sources */,

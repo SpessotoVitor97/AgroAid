@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView.image = UIImage.gifImageWithName("AgroAid_Logo")
+        imageView.image = UIImage.gifImageWithName("Logo_animado_XL")
         
 //        var charIndex = 0.0
 //        let titleText = K.appName
