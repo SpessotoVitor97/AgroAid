@@ -1,17 +1,17 @@
 //
-//  ServiceViewController.swift
+//  VideoChatViewController.swift
 //  AgroAid
 //
-//  Created by Vitor Spessoto on 23/08/21.
+//  Created by Vitor Spessoto on 23/11/21.
 //
 
 import UIKit
 
-class ServiceViewController: UIViewController {
+class VideoChatViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        overrideUserInterfaceStyle = .light
+
         // Do any additional setup after loading the view.
     }
     

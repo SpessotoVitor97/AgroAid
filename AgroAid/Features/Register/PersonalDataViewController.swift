@@ -31,7 +31,7 @@ class PersonalDataViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overrideUserInterfaceStyle = .light
         personalDataView.layer.cornerRadius = personalDataView.frame.size.height / 10
         addressView.layer.cornerRadius = addressView.frame.size.height / 10
         
@@ -57,15 +57,4 @@ class PersonalDataViewController: UIViewController {
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         print("going to RegisterViewController...")
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

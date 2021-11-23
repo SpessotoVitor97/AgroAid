@@ -18,7 +18,7 @@ class ChatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overrideUserInterfaceStyle = .light
         tableView.dataSource = self
         title = K.appName
         navigationItem.hidesBackButton = true

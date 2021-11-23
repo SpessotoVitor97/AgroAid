@@ -17,7 +17,7 @@ class SegmentRegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overrideUserInterfaceStyle = .light
         nextButton.configure(with: .primaryDefault)
         nextButton.isEnabled = false
     }

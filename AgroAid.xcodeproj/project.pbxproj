@@ -22,6 +22,7 @@
 		2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */; };
 		2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */; };
 		2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A3C1226F79FF700D82A85 /* Assets.xcassets */; };
+		2D4C1144274D2621003071F9 /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4C1143274D2620003071F9 /* VideoChatViewController.swift */; };
 		2D5D815C2700EE3D000F50AE /* DSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815B2700EE3D000F50AE /* DSButton.swift */; };
 		2D5D81602700EE47000F50AE /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815D2700EE47000F50AE /* UIColor+Utils.swift */; };
 		2D5D81612700EE47000F50AE /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D815E2700EE47000F50AE /* UIView+Utils.swift */; };
@@ -32,9 +33,8 @@
 		2D967ACF26F3B57900DABF64 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2D967ACE26F3B57900DABF64 /* IQKeyboardManagerSwift */; };
 		2D967AD226F4D15E00DABF64 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D967AD026F4D15E00DABF64 /* MessageCell.swift */; };
 		2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D967AD126F4D15E00DABF64 /* MessageCell.xib */; };
-		2DADD73427011525001A3E2A /* Logo_animado.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73327011525001A3E2A /* Logo_animado.gif */; };
-		2DADD73727011661001A3E2A /* Logo_animado_XL.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73527011661001A3E2A /* Logo_animado_XL.gif */; };
-		2DADD73827011661001A3E2A /* Logo_animado_large.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD73627011661001A3E2A /* Logo_animado_large.gif */; };
+		2DADD73A2703552B001A3E2A /* Logo_animado_XL.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DADD7392703552B001A3E2A /* Logo_animado_XL.gif */; };
+		2DADD73D27035E77001A3E2A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADD73C27035E77001A3E2A /* UserModel.swift */; };
 		7B94E8F7FB34B954A9394864 /* Pods_AgroAid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +57,7 @@
 		2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D3A3C1026F79B0700D82A85 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		2D3A3C1226F79FF700D82A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D4C1143274D2620003071F9 /* VideoChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
 		2D5D815B2700EE3D000F50AE /* DSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSButton.swift; sourceTree = "<group>"; };
 		2D5D815D2700EE47000F50AE /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
 		2D5D815E2700EE47000F50AE /* UIView+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
@@ -66,9 +67,8 @@
 		2D75CB2726DABF6A0073BAD4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2D967AD026F4D15E00DABF64 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		2D967AD126F4D15E00DABF64 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		2DADD73327011525001A3E2A /* Logo_animado.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado.gif; sourceTree = "<group>"; };
-		2DADD73527011661001A3E2A /* Logo_animado_XL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado_XL.gif; sourceTree = "<group>"; };
-		2DADD73627011661001A3E2A /* Logo_animado_large.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Logo_animado_large.gif; sourceTree = "<group>"; };
+		2DADD7392703552B001A3E2A /* Logo_animado_XL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Logo_animado_XL.gif; path = ../../../../Logo/Logo_animado_XL.gif; sourceTree = "<group>"; };
+		2DADD73C27035E77001A3E2A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		B3E351A64CBE39679B2B8478 /* Pods-AgroAid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgroAid.release.xcconfig"; path = "Target Support Files/Pods-AgroAid/Pods-AgroAid.release.xcconfig"; sourceTree = "<group>"; };
 		ED9A31DB7D2AE0735FF94668 /* Pods_AgroAid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgroAid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +103,7 @@
 				2D75CB2126D9666B0073BAD4 /* Message.swift */,
 				2D967AD026F4D15E00DABF64 /* MessageCell.swift */,
 				2D967AD126F4D15E00DABF64 /* MessageCell.xib */,
+				2D4C1143274D2620003071F9 /* VideoChatViewController.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -148,9 +149,7 @@
 				2D3A3C1226F79FF700D82A85 /* Assets.xcassets */,
 				2D34424426C1EAD6004AF4CC /* Info.plist */,
 				2D34424A26C1F428004AF4CC /* GoogleService-Info.plist */,
-				2DADD73327011525001A3E2A /* Logo_animado.gif */,
-				2DADD73627011661001A3E2A /* Logo_animado_large.gif */,
-				2DADD73527011661001A3E2A /* Logo_animado_XL.gif */,
+				2DADD7392703552B001A3E2A /* Logo_animado_XL.gif */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -225,6 +224,7 @@
 		2D5D81652700F25E000F50AE /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				2DADD73B27035E61001A3E2A /* UserModel */,
 				2D231ACD26D3F01D00A1CD86 /* Storyboards */,
 				2D231AC926D3EF4300A1CD86 /* Home */,
 				2D231AC826D3EF3C00A1CD86 /* Login */,
@@ -233,6 +233,14 @@
 				2D231ACA26D3EF4C00A1CD86 /* Services */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		2DADD73B27035E61001A3E2A /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DADD73C27035E77001A3E2A /* UserModel.swift */,
+			);
+			path = UserModel;
 			sourceTree = "<group>";
 		};
 		9D6695F8A820C012F66DEF08 /* Frameworks */ = {
@@ -318,11 +326,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D967AD326F4D15E00DABF64 /* MessageCell.xib in Resources */,
-				2DADD73427011525001A3E2A /* Logo_animado.gif in Resources */,
 				2D34424326C1EAD6004AF4CC /* LaunchScreen.storyboard in Resources */,
 				2D34424B26C1F428004AF4CC /* GoogleService-Info.plist in Resources */,
-				2DADD73727011661001A3E2A /* Logo_animado_XL.gif in Resources */,
-				2DADD73827011661001A3E2A /* Logo_animado_large.gif in Resources */,
+				2DADD73A2703552B001A3E2A /* Logo_animado_XL.gif in Resources */,
 				2D34423E26C1EAD4004AF4CC /* Main.storyboard in Resources */,
 				2D3A3C1326F79FF700D82A85 /* Assets.xcassets in Resources */,
 			);
@@ -379,6 +385,7 @@
 			files = (
 				2D231AC026D3EC0800A1CD86 /* LoginViewController.swift in Sources */,
 				2D5D815C2700EE3D000F50AE /* DSButton.swift in Sources */,
+				2DADD73D27035E77001A3E2A /* UserModel.swift in Sources */,
 				2D231ABB26D3EBD700A1CD86 /* PersonalDataViewController.swift in Sources */,
 				2D34423B26C1EAD4004AF4CC /* HomeViewController.swift in Sources */,
 				2D3A3C1126F79B0700D82A85 /* UIImage+Extensions.swift in Sources */,
@@ -396,6 +403,7 @@
 				2D231AC226D3EC2300A1CD86 /* ServiceViewController.swift in Sources */,
 				2D231AC626D3EC4500A1CD86 /* ChatViewController.swift in Sources */,
 				2D34423926C1EAD4004AF4CC /* SceneDelegate.swift in Sources */,
+				2D4C1144274D2621003071F9 /* VideoChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,10 +558,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VitorSpessoto.AgroAid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -570,10 +579,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VitorSpessoto.AgroAid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

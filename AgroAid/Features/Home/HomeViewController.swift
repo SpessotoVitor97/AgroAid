@@ -25,7 +25,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        overrideUserInterfaceStyle = .light
         imageView.image = UIImage.gifImageWithName("Logo_animado_XL")
         
 //        var charIndex = 0.0

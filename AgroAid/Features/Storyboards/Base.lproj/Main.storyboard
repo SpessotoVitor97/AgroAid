@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z1z-nW-C2U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z1z-nW-C2U">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -367,11 +367,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EPM-I4-ZvK">
-                        <barButtonItem key="rightBarButtonItem" title="Logout" id="AaL-JS-ATW">
-                            <connections>
-                                <action selector="logoutButtonPressed:" destination="9fz-aM-6kS" id="q4w-pJ-Af5"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="video.circle.fill" catalog="system" id="8s3-om-c8o">
+                                <connections>
+                                    <segue destination="2K6-2z-uUr" kind="show" id="J9e-d5-KpP"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Logout" id="AaL-JS-ATW">
+                                <connections>
+                                    <action selector="logoutButtonPressed:" destination="9fz-aM-6kS" id="q4w-pJ-Af5"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="messageTextField" destination="w6l-Z2-0MU" id="5be-RH-GUP"/>
@@ -381,6 +388,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fNp-WF-QAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6187" y="-249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dTX-rv-IrC">
+            <objects>
+                <viewController id="2K6-2z-uUr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cPs-xy-fJ9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video chat will soon be avaliable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-3i-mQX">
+                                <rect key="frame" x="84" y="335.66666666666669" width="246" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dFQ-Hi-AJ9"/>
+                        <color key="backgroundColor" name="BrandLightBlue"/>
+                        <constraints>
+                            <constraint firstItem="kxN-3i-mQX" firstAttribute="centerY" secondItem="cPs-xy-fJ9" secondAttribute="centerY" id="gH2-kp-c4i"/>
+                            <constraint firstItem="kxN-3i-mQX" firstAttribute="centerX" secondItem="cPs-xy-fJ9" secondAttribute="centerX" id="ooo-xR-EM5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9A7-PN-fCH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKa-BR-DX8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7080" y="-249"/>
         </scene>
         <!--Service View Controller-->
         <scene sceneID="Ylp-dW-dUJ">
@@ -937,13 +972,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="j5x-X9-a6W"/>
+        <segue reference="oD5-QN-jxZ"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Agricultor" width="341.33334350585938" height="341.33334350585938"/>
-        <image name="Produtor" width="533.33331298828125" height="404.33334350585938"/>
+        <image name="Agricultor" width="512" height="512"/>
+        <image name="Produtor" width="512" height="512"/>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
+        <image name="video.circle.fill" catalog="system" width="128" height="121"/>
         <namedColor name="BrandBlue">
             <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

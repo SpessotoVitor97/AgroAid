@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Agricultor.jpg",
+      "filename" : "Agricultor.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Agricultor@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Agricultor@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
