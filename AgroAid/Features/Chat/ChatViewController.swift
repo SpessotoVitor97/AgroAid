@@ -21,7 +21,7 @@ class ChatViewController: UIViewController {
         overrideUserInterfaceStyle = .light
         tableView.dataSource = self
         title = K.appName
-        navigationItem.hidesBackButton = true
+        navigationItem.hidesBackButton = false
         
         tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
         
