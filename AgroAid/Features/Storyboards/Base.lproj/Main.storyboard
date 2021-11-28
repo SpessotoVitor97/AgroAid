@@ -452,15 +452,6 @@
                                     <color key="titleColor" name="BrandBlue"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMi-AF-5XP">
-                                <rect key="frame" x="147" y="516" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="uBJ-jl-UXo"/>
-                                </constraints>
-                                <state key="normal" title="Plano 03">
-                                    <color key="titleColor" name="BrandBlue"/>
-                                </state>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PDq-D7-cxK"/>
                         <color key="backgroundColor" name="BrandLightBlue"/>
@@ -470,15 +461,11 @@
                             <constraint firstItem="PDq-D7-cxK" firstAttribute="trailing" secondItem="KRr-f5-LZd" secondAttribute="trailing" constant="20" id="F0K-6y-os3"/>
                             <constraint firstItem="MxK-iQ-XtO" firstAttribute="top" secondItem="KRr-f5-LZd" secondAttribute="bottom" constant="66" id="KZ2-cQ-hPc"/>
                             <constraint firstItem="KRr-f5-LZd" firstAttribute="leading" secondItem="PDq-D7-cxK" secondAttribute="leading" constant="20" id="POb-24-DKU"/>
-                            <constraint firstItem="rMi-AF-5XP" firstAttribute="centerX" secondItem="PjC-kt-Il0" secondAttribute="centerX" id="RU1-vt-7l1"/>
-                            <constraint firstItem="PDq-D7-cxK" firstAttribute="trailing" secondItem="rMi-AF-5XP" secondAttribute="trailing" constant="147" id="RXA-ZB-BPR"/>
                             <constraint firstItem="MxK-iQ-XtO" firstAttribute="leading" secondItem="PDq-D7-cxK" secondAttribute="leading" constant="147" id="aHo-wZ-Zwy"/>
                             <constraint firstItem="co7-4y-lhZ" firstAttribute="centerX" secondItem="PjC-kt-Il0" secondAttribute="centerX" id="bBM-e9-0KA"/>
                             <constraint firstItem="PDq-D7-cxK" firstAttribute="trailing" secondItem="co7-4y-lhZ" secondAttribute="trailing" constant="147" id="bLT-Ef-Ekx"/>
-                            <constraint firstItem="rMi-AF-5XP" firstAttribute="top" secondItem="co7-4y-lhZ" secondAttribute="bottom" constant="8" symbolic="YES" id="eoR-IG-Vvb"/>
                             <constraint firstItem="co7-4y-lhZ" firstAttribute="leading" secondItem="PDq-D7-cxK" secondAttribute="leading" constant="147" id="fMP-iR-EPg"/>
                             <constraint firstItem="MxK-iQ-XtO" firstAttribute="centerX" secondItem="PjC-kt-Il0" secondAttribute="centerX" id="khZ-gU-FJB"/>
-                            <constraint firstItem="rMi-AF-5XP" firstAttribute="leading" secondItem="PDq-D7-cxK" secondAttribute="leading" constant="147" id="oyN-M8-jxJ"/>
                             <constraint firstItem="co7-4y-lhZ" firstAttribute="top" secondItem="MxK-iQ-XtO" secondAttribute="bottom" constant="8" symbolic="YES" id="qgj-Df-KA2"/>
                         </constraints>
                     </view>
